@@ -7,7 +7,8 @@ Runs inference then evaluation with one command:
 Make sure you have installed dependencies first:
     pip install -r requirements.txt
 """
-
+import faulthandler
+faulthandler.enable()
 import sys
 import os
 

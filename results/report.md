@@ -11,10 +11,10 @@
 |---|---|
 | Word Error Rate (WER) | 18.30% |
 | Character Error Rate (CER) | 5.66% |
-| Average Inference Latency | 4.082s |
-| Min Latency | 2.964s |
-| Max Latency | 7.11s |
-| Total Inference Time | 81.633s |
+| Average Inference Latency | 1.149s |
+| Min Latency | 0.461s |
+| Max Latency | 2.901s |
+| Total Inference Time | 22.971s |
 
 ## What These Numbers Mean
 
