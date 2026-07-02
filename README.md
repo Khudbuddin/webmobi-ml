@@ -77,7 +77,7 @@ Performance varies depending on whether GPU or CPU is used:
 ### On GPU (NVIDIA)
 | Metric | Value |
 |---|---|
-| Word Error Rate (WER) | ~4–5% |
+| Word Error Rate (WER) | ~18% |
 | Character Error Rate (CER) | ~1–2% |
 | Average Latency per clip | ~0.5s |
 | Total time for 20 clips | ~10s |
@@ -132,5 +132,6 @@ Whisper was chosen because it works out-of-the-box without fine-tuning, has the 
 
 - First run downloads ~250MB (model) + dataset — subsequent runs use local cache
 - GPU is detected and used automatically — no code changes needed
-- To change number of samples edit `NUM_SAMPLES` in `src/inference.py`
-- PyTorch CUDA builds currently support up to Python 3.12 — Python 3.13 users should use CPU version
+- To change number of samples edit `NUM_SAMPLES` in `src/inference.py` 
+- CPU version: Supports Python **3.13** (and earlier compatible versions).
+- GPU (CUDA) version: Use **Python 3.11**. Python **3.13** is not currently supported for the CUDA build and may result in installation or runtime issues.
