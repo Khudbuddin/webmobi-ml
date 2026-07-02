@@ -1,0 +1,13 @@
+{
+  "model": "openai/whisper-small",
+  "dataset": "librispeech_asr (test-clean)",
+  "num_samples": 20,
+  "wer": 0.183,
+  "wer_percent": "18.30%",
+  "cer": 0.0566,
+  "cer_percent": "5.66%",
+  "avg_latency_sec": 4.082,
+  "min_latency_sec": 2.964,
+  "max_latency_sec": 7.11,
+  "total_inference_sec": 81.633
+}
